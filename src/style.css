@@ -34,9 +34,12 @@ select {
   max-width: 600px;
   margin: 30px auto;
   padding: 40px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(129, 198, 235, 0.27);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(129, 198, 235, 0.27);
+  box-shadow: 10px 10px 5px 0px rgba(129, 198, 235, 0.27);
   background-image: linear-gradient(to right top, #c4e5fb, #f4fbff);
   border-radius: 15px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #b3dcf3;
 }
 
 .city {
